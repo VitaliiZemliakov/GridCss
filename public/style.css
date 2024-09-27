@@ -1,13 +1,17 @@
 .grid {
     display: grid;
-    grid-gap: 1rem;
+    gap: 1rem 1.5rem;
     margin-bottom: 1rem;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: 100px 200px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, auto) */
 }
 
 .item {
     background-color: #ede7f6;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.item4 {
+    grid-column: 1 / span 2;
 }
