@@ -1,1 +1,11 @@
-pu
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.item {
+    background-color: #ede7f6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
